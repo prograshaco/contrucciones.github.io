@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontello-e585fa76/css/fontello.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <header class="bg_animate">
         <div class="navbar inicio">
+            <img class="img-navbar animate__animated animate__fadeInLeftBig" src="./imagenes/peñacontrucciones_chico.png" alt="">
             <ul class="nav-links animate__animated animate__backInRight">
-                <a href="#inicio"><img class="img-navbar animate__animated animate__fadeInLeftBig" src="./imagenes/peñacontrucciones_chico.png" alt=""></a>
+                <a href="#inicio"></a>
                 <li>
                     <a href="index.html" class="nav-link">Inicio</a>
                 </li>
@@ -21,10 +23,10 @@
                     <a href="#" class="nav-link">Contacto</a>
                 </li>
                 <li>
-                    <a href="#sec-nosotros" class="nav-link">Sobre Nosotros</a>
+                    <a href="#sec-nosotros" class="nav-link">Proyectos</a>
                 </li>
                 <li>
-                    <a href="#div_creaciones" class="nav-link">Proyectos</a>
+                    <a href="#sec-creaciones" class="nav-link">Sobre Nosotros</a>
                 </li>
             </ul>
         </div>
@@ -57,26 +59,25 @@
         
     </header>
     
-    <section class="banner contenedor" id="sec-nosotros">
+    <section class="sec-nosotros" id="sec-nosotros">
         <article class="content_nosotros about">
 
-            <h2 class="title">Nosotros</h2>
-            <p>Somos una Empresa con 10 años de experiencia en el rubro,
-            entregando la mejor calidad y compromiso con nuestros clientes.
-            </p>
-
-            <a href="#" class="btn">Saber mas</a>
+            <img src="./imagenes/fondo-nosotros.png" alt="">
 
         </article>
     </section>
-    <section class="banner contenedor_creaciones">
+    
+    <section class="banner contenedor_creaciones" id="sec-creaciones">
 
-            <article class="contain_contacto content_creaciones">
-                <div class="div_creaciones" id="div_creaciones">
-                    <h2 class="title_creaciones">Creaciones</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Mollitia pariatur sed dicta suscipit laboriosam? Ex, id? 
-                    Eum similique nostrum labore ea assumenda! Laboriosam fuga minus facere ipsam animi libero ratione?</p>
+            <article class="contain_creaciones content_creaciones">
+                <div class="div_creaciones">
+                    <h3 class="title_creaciones">Nosotros</h3>
+                    <p>Somos una empresa emprendedora, con 5 años cumpliendo con las expectativas de nuestros clientes,
+                        nos destacamos en Obras-Menores,
+                        cuyo origen viene de la experiencia de trabajo en el área,
+                        nuestro objetivo es facilitar las necesidades de su hogar,
+                        destacándonos por nuestra dedicación y compromiso con nuestros clientes
+                    </p>
 
 
                 </div>
@@ -90,10 +91,40 @@
             </div>
       
     </section>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./imagenes/peñacontrucciones_chico.png" alt="Logo de Construcciones peña">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Redes Sociales</h2>
+                <p>Disponemos de diferentes medios de comunicacion ¿Que esperas para contactarnos?</p>
+                <p>Correo: Soporte@construccionespena.com</p>
+                
+            </div>
+            <div class="box">
+                <h2>Contactanos</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="https://api.whatsapp.com/send?phone=569" class="fa fa-whatsapp"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022<b>Peña Construcciones</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
 
     
     <a href="https://api.whatsapp.com/send?phone=56948919755" class="btn-wsp texto-wsp">Contactanos!
     <i class="icon-whatsapp"></i>
     </a>
+
+
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </body>
 </html>
