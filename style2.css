@@ -80,7 +80,9 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.18);
     
   }
-
+  .contain_creaciones{
+    width: 0%;
+  }
   .contain_creaciones p{
     text-align: justify;
     font-size: 20px;
@@ -92,18 +94,24 @@ body{
     width: 250px;
     padding-left: 30%;
   }
-
-  .grupo-1{
-    align-items: flex-start;
-  }
-  .grupo-1 h2{
+  .pie-pagina .grupo-1{
+    display: grid;
     
-    font-size: 17px;
+  }
+
+  .pie-pagina .grupo-1 .box figure {
+    width: 0%;
+    height: 0%;
+  }
+  
+  .pie-pagina .grupo-1 .box h2{
+    
+    font-size: 15px;
   }
 
   .box{
     text-align: justify;
-    font-size: 13px;
+    
   }
   .pie-pagina .grupo-1 .box figure img{
     width: 0;
